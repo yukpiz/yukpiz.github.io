@@ -1,0 +1,35 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: white;
+    font-size: 15pt;
+}
+
+.title-area {
+    text-align: center;
+}
+
+.term_blink {
+    font-size: 2em;
+    -webkit-animation:blink 0.5s step-end infinite alternate;
+    -moz-animation:blink 0.5s step-end infinite alternate;
+    animation:blink 0.6s step-end infinite alternate;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+@-webkit-keyframes blink{
+    0%,20% {opacity: 0}
+    80%,100% {opacity: 1}
+}
+@-moz-keyframes blink{
+    0%,20% {opacity: 0}
+    80%,100% {opacity: 1}
+
+}
+@keyframes blink{
+    0%,40% {opacity: 0}
+    41%,100% {opacity: 1}
+}
