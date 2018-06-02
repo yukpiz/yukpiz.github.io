@@ -3,8 +3,9 @@ body {
     font-family: 'Press Start 2P', cursive;
     background-color: black;
     color: white;
+    width: 100%;
+    margin: 0;
     font-size: 15pt;
-    text-align: center;
 }
 
 p {
@@ -16,16 +17,17 @@ a, a:link, a:visited, a:hover, a:active {
 }
 
 .title-area {
+    text-align: center;
 }
 
 .content-area {
-    width: 450px;
-    margin: 60px auto 0 auto;
+    width: 100%;
+    margin: 100px 0 0 50px;
     text-align: left;
 }
 
 .term_blink {
-    font-size: 2em;
+    font-size: 3.5em;
     width: 10px;
     background-color: white;
     -webkit-animation:blink 0.5s step-end infinite alternate;
@@ -34,12 +36,12 @@ a, a:link, a:visited, a:hover, a:active {
 }
 
 .title {
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 .link {
-    font-size: 1.1em;
-    margin-top: 20px;
+    font-size: 1.3em;
+    margin-top: 40px;
 }
 
 .link3 {
@@ -47,11 +49,8 @@ a, a:link, a:visited, a:hover, a:active {
 }
 
 .profile {
-    margin-top: 30px;
-}
-
-.profile > div {
-    margin-top: 10px;
+    font-size: 0.7em;
+    margin-top: 50px;
 }
 
 @-webkit-keyframes blink{
