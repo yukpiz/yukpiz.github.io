@@ -1,16 +1,33 @@
 body {
+    padding: 40px 0 40px 0;
     font-family: 'Press Start 2P', cursive;
     background-color: black;
     color: white;
     font-size: 15pt;
+    text-align: center;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: white;
 }
 
 .title-area {
-    text-align: center;
+}
+
+.content-area {
+    width: 450px;
+    margin: 60px auto 0 auto;
+    text-align: left;
 }
 
 .term_blink {
     font-size: 2em;
+    width: 10px;
+    background-color: white;
     -webkit-animation:blink 0.5s step-end infinite alternate;
     -moz-animation:blink 0.5s step-end infinite alternate;
     animation:blink 0.6s step-end infinite alternate;
@@ -19,6 +36,24 @@ body {
 .title {
     font-size: 1.5em;
 }
+
+.link {
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.link3 {
+    margin-top: 50px;
+}
+
+.profile {
+    margin-top: 30px;
+}
+
+.profile > div {
+    margin-top: 10px;
+}
+
 
 @-webkit-keyframes blink{
     0%,20% {opacity: 0}
