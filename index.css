@@ -19,7 +19,7 @@ a, a:link, a:visited, a:hover, a:active {
 }
 
 .content-area {
-    width: 450px;
+    width: 500px;
     margin: 60px auto 0 auto;
     text-align: left;
 }
@@ -66,4 +66,12 @@ a, a:link, a:visited, a:hover, a:active {
 @keyframes blink{
     0%,40% {opacity: 0}
     41%,100% {opacity: 1}
+}
+
+.kurukuru {
+  animation: spin 1.5s linear infinite;
+}
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }
