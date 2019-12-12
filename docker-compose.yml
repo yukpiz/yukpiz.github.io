@@ -1,0 +1,14 @@
+version: "2"
+services:
+  nginx:
+    image: nginx:${NGINX_VERSION}-alpine
+    volumes:
+      - ./:/usr/share/nginx/html
+    ports:
+      - "8888:80"
+  realize:
+    image: node:${NODE_VERSION}
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: sh -c 'npm install && npm run start'
