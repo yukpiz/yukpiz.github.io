@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "node-sass-globbing": "0.0.23"
+  },
+  "scripts": {
+    "start": "node-sass -w --importer node_modules/node-sass-globbing/index.js default.scss -o ./ --output-style compressed"
+  }
+}
