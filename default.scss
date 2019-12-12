@@ -78,7 +78,7 @@ body {
   //font-family: 'Bungee Shade', cursive;
   //font-family: 'Press Start 2P', cursive;
   //font-family: 'VT323', monospace;
-  font-size: 12pt;
+  font-size: 15pt;
   font-family: 'Press Start 2P', cursive;
   color: #fff;
   background-color: #000;
@@ -139,8 +139,8 @@ body {
     }
 
     img {
-      width: 1.5em;
-      height: 1.5em;
+      width: 2em;
+      height: 2em;
     }
   }
 
@@ -156,10 +156,11 @@ body {
     left: 0;
     top: 0;
     background-color: red;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
     background: linear-gradient(to bottom, #000, #000 70%, rgba(0,0,0,0));
 
     .web-title {
+      margin-top: 1em;
       font-family: 'Bungee Shade', cursive;
       font-size: 2.5em;
       color: #fff;
