@@ -1,0 +1,56 @@
+html {
+  background-color: #fff; }
+
+body .balloon1 {
+  top: 50vh;
+  left: 50vw;
+  position: absolute;
+  background-color: #FEF7D5;
+  border-radius: 2.5em;
+  width: 5em;
+  height: 5em; }
+
+body .balloon2 {
+  top: 88vh;
+  left: 21vw;
+  position: absolute;
+  background-color: #FBE481;
+  border-radius: 1.5em;
+  width: 3em;
+  height: 3em; }
+
+body .balloon3 {
+  top: 14vh;
+  left: 78vw;
+  position: absolute;
+  background-color: #FEF7D5;
+  border-radius: 1.7em;
+  width: 3.4em;
+  height: 3.4em; }
+
+body .balloon4 {
+  top: 45vh;
+  left: 91vw;
+  position: absolute;
+  background-color: #F3C759;
+  border-radius: 2.4em;
+  width: 4.8em;
+  height: 4.8em; }
+
+body .balloon5 {
+  top: 32vh;
+  left: 19vw;
+  position: absolute;
+  background-color: #FBE481;
+  border-radius: 2em;
+  width: 4em;
+  height: 4em; }
+
+body .balloon6 {
+  top: 79vh;
+  left: 75vw;
+  position: absolute;
+  background-color: #FBE481;
+  border-radius: 3.5em;
+  width: 7em;
+  height: 7em; }
