@@ -43,17 +43,11 @@
 }
 
 @keyframes drop {
-  0% {transform: translate(0px, 0px)}
-  10% {transform: translate(0px, 10px)}
-  20% {transform: translate(0px, 10px)}
-  30% {transform: translate(0px, 15px)}
-  40% {transform: translate(0px, 30px)}
-  50% {transform: translate(0px, 60px)}
-  60% {transform: translate(0px, 120px)}
-  70% {transform: translate(0px, 240px)}
-  80% {transform: translate(0px, 480px)}
-  90% {transform: translate(0px, 920px)}
-  100% {transform: translate(0px, 1840px)}
+  0% {transform: translate(0px, 0%)}
+  5% {transform: translate(0px, 3%)}
+  10% {transform: translate(0px, 5%)}
+  30% {transform: translate(0px, 10%)}
+  100% {transform: translate(0px, 2000%)}
 }
 
 @keyframes slide {
@@ -71,7 +65,33 @@
 }
 
 @keyframes flowing {
-  100% {transform: translateX(100%)}
+  1% {transform: translate(10%, 0px)}
+
+  15% {transform: translate(510%, 0px)}
+  16% {transform: translate(544%, -30px)}
+  17% {transform: translate(578%, -45px)}
+  18% {transform: translate(612%, -55px)}
+  19% {transform: translate(646%, -45px)}
+  20% {transform: translate(680%, -30px)}
+  21% {transform: translate(714%, 0px)}
+
+  42% {transform: translate(1428%, 0px)}
+  43% {transform: translate(1462%, -30px)}
+  44% {transform: translate(1496%, -45px)}
+  45% {transform: translate(1530%, -55px)}
+  46% {transform: translate(1564%, -45px)}
+  47% {transform: translate(1598%, -30px)}
+  48% {transform: translate(1632%, 0px)}
+
+  70% {transform: translate(2380%, 0px)}
+  71% {transform: translate(2414%, -30px)}
+  72% {transform: translate(2448%, -45px)}
+  73% {transform: translate(2482%, -55px)}
+  74% {transform: translate(2516%, -45px)}
+  75% {transform: translate(2550%, -30px)}
+  76% {transform: translate(2584%, 0px)}
+
+  100% {transform: translate(3400%, 0px)}
 }
 
 body {
@@ -133,9 +153,9 @@ body {
     margin-bottom: -0.4em;
 
     .anim_mushroom {
-      width: 100%;
-      display: inline-block;
-      animation: flowing 10s linear infinite;
+      img {
+        animation: flowing 10s linear infinite;
+      }
     }
 
     img {
@@ -181,7 +201,7 @@ body {
   }
 
   .page2 {
-    margin-top: 8em;
+    margin-top: 12em;
     margin-bottom: 4em;
 
     .anim_bound_1 {
