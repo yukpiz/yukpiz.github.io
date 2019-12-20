@@ -65,33 +65,45 @@
 }
 
 @keyframes flowing {
-  1% {transform: translate(10%, 0px)}
+  0% {transform: translate(0vw, 0vh)}
 
-  15% {transform: translate(510%, 0px)}
-  16% {transform: translate(544%, -30px)}
-  17% {transform: translate(578%, -45px)}
-  18% {transform: translate(612%, -55px)}
-  19% {transform: translate(646%, -45px)}
-  20% {transform: translate(680%, -30px)}
-  21% {transform: translate(714%, 0px)}
+  15% {transform: translate(9.9vw, 0vh)}
+  16% {transform: translate(10.56vw, -1vh)}
+  17% {transform: translate(11.22vw, -2vh)}
+  18% {transform: translate(11.88vw, -3vh)}
+  19% {transform: translate(12.54vw, -3.5vh)}
+  20% {transform: translate(13.2vw, -3.5vh)}
+  21% {transform: translate(13.86vw, -3.5vh)}
+  22% {transform: translate(14.52vw, -3vh)}
+  23% {transform: translate(15.18vw, -2vh)}
+  24% {transform: translate(15.84vw, -1vh)}
+  25% {transform: translate(16.5vw, 0vh)}
 
-  42% {transform: translate(1428%, 0px)}
-  43% {transform: translate(1462%, -30px)}
-  44% {transform: translate(1496%, -45px)}
-  45% {transform: translate(1530%, -55px)}
-  46% {transform: translate(1564%, -45px)}
-  47% {transform: translate(1598%, -30px)}
-  48% {transform: translate(1632%, 0px)}
+  47% {transform: translate(31.02vw, 0vh)}
+  48% {transform: translate(31.68vw, -1vh)}
+  49% {transform: translate(32.34vw, -2vh)}
+  50% {transform: translate(33vw, -3vh)}
+  51% {transform: translate(33.66vw, -3.5vh)}
+  52% {transform: translate(34.32vw, -3.5vh)}
+  53% {transform: translate(34.98vw, -3.5vh)}
+  54% {transform: translate(35.64vw, -3vh)}
+  55% {transform: translate(36.3vw, -2vh)}
+  56% {transform: translate(36.96vw, -1vh)}
+  57% {transform: translate(37.62vw, 0vh)}
 
-  70% {transform: translate(2380%, 0px)}
-  71% {transform: translate(2414%, -30px)}
-  72% {transform: translate(2448%, -45px)}
-  73% {transform: translate(2482%, -55px)}
-  74% {transform: translate(2516%, -45px)}
-  75% {transform: translate(2550%, -30px)}
-  76% {transform: translate(2584%, 0px)}
+  69% {transform: translate(45.54vw, 0vh)}
+  70% {transform: translate(46.2vw, -1vh)}
+  71% {transform: translate(46.86vw, -2vh)}
+  72% {transform: translate(47.52vw, -3vh)}
+  73% {transform: translate(48.18vw, -3.5vh)}
+  74% {transform: translate(48.84vw, -3.5vh)}
+  75% {transform: translate(49.5vw, -3.5vh)}
+  76% {transform: translate(50.16vw, -3vh)}
+  77% {transform: translate(50.82vw, -2vh)}
+  78% {transform: translate(51.48vw, -1vh)}
+  79% {transform: translate(52.14vw, 0vh)}
 
-  100% {transform: translate(3400%, 0px)}
+  100% {transform: translate(66vw, 0vh)}
 }
 
 body {
@@ -154,7 +166,7 @@ body {
 
     .anim_mushroom {
       img {
-        animation: flowing 10s linear infinite;
+        animation: flowing 6.5s linear infinite;
       }
     }
 
