@@ -352,7 +352,9 @@ body.scout {
     }
 
     .updated {
-      margin-top: 1em;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.7em;
+      margin-top: 1.5em;
       color: #aaa;
     }
   }
